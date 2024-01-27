@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bootstrap-overrides #headline {
+  font-family: 'Berkshire Swash', cursive;
+  /* class="p-5 text-center" */
+}
+
+#bootstrap-overrides button {
+  background-color: cornflowerblue;
+  border: cornflowerblue;
+}
+
+#bootstrap-overrides #insultMsg {
+  font-family: 'Tangerine', cursive;
+}
+
+#no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#bootstrap-overrides #footertext {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

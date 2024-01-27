@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="has-bg-img">
+<div class="bg-image" id="main-div" style="background-image: url('images/parchment.jpg'); height: 100vh">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shakespearan Insult Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Nova+Oval&family=Romanesco&family=Tangerine:wght@700&family=Tapestry&display=swap"
+      rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="bootstrap-overrides" class="text-center">
+
+    <h1 id="headline" class="p-5 text-center">Shakespearean Insult Generator</h1>
+    <br><br>
+    <main>
+
+      <img src="images/fleurdelis.png" alt="fleur de lis">
+
+      <img src="images/girlbook.jpg" alt="girl holding Shakespeare book">
+      <img src="images/fleurdelis.png" alt="fleur de lis">
+      <br><br>
+    </main>
+    <div id="options">
+      <h6>I want to channel the Bard to insult someone based on:</h6>
+      <select id="category">
+        <option value=""><label for="Select One">Select One</option>
+        <option value="appearance"><label for="appearance">appearance</option>
+        <option value="intelligence"><label for="intelligence">intelligence</option>
+        <option value="character"><label for="character">character</option>
+        <option value="anything"><label for="nothing in particular">nothing in particular</option>
+      </select>
+
+
+      <br><br>
+
+      <h6>I would like:</h6>
+      <button type="button" class="btn btn-info" id="oneInsult">just one insult</button>
+      <button type="button" class="btn btn-info" id="fewInsults">give me a few to choose from</button>
+      <br>
+      <br>
+
+      <!-- place holder for feedback image -->
+      <div id="fdbkImg"></div>
+
+      <!-- place holder for insult message -->
+      <h2 id="insultMsg"></h2>
+      <br>
+
+    </div>
+
+    <!-- place holder for error message -->
+    <div id="errorFdbk" class="bg-danger text-white"></div>
+
+    <footer>
+      <hr />
+
+      <div id="footertext">
+        CST336 Internet Programming. 2023&copy; Hurtado <br />
+        <strong>Disclaimer:</strong> This webpage is for educational purposes only. <br />
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</div>
+
+</html>
